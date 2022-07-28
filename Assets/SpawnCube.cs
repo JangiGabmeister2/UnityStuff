@@ -11,9 +11,9 @@ public class SpawnCube : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.P) == true)
         {
-            Instantiate(codePreFab, spawnLocation, Quaternion.identity);    
+            Instantiate(codePreFab, spawnLocation, Quaternion.identity);            
         }
-        
+      
         
     }
 }
